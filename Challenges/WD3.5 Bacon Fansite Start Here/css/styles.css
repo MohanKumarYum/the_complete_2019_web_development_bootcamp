@@ -14,9 +14,9 @@
       color: red;
     }
 
-    /* img {
-      background-color: royalblue;
-    } */
+    img:hover {
+      background-color: goldenrod;
+    }
 
     /* Class Selectors */
 
@@ -26,4 +26,14 @@
 
     .bacon {
       background-color: green;
+    }
+
+    .circular {
+      border-radius:  50%;
+    }
+
+    /* ID Selector */
+
+    #heading {
+      color: blue;
     }
