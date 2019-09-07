@@ -1,0 +1,19 @@
+/* body {
+    background-color: #eaf6f6;
+  }
+
+  hr {
+    border-style: none;
+    border: grey none 5px;
+    border-top-style: dotted;
+    width: 65px;
+  } */
+
+  /* h1, h3 { */
+    h1 {
+      color: red;
+    }
+
+    img {
+      background-color: royalblue;
+    }
