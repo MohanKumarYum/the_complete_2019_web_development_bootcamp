@@ -6,6 +6,26 @@ h1 {
     margin-top: 0px;
 }
 
-div {
+.top-container {
     background-color: #c8dad3;
+    height: 200px;
+    width: 200px;
+    border:black solid 10px;
+    padding: 20px;
+}
+
+.middle-container {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border:black solid 20px;
+    margin-left: 260px;
+}
+
+.bottom-container {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    border: black solid 10px;
+    margin-left: 500px;
 }
