@@ -1,25 +1,26 @@
+body {
+    margin: 0;
+}
 .top {
     height: 100px;
     width: 100px;
     background-color: red;
-    display: inline-block;
-    position: relative;
+    position: absolute;
     left: 200px;
-
+    top:200px;
 }
 .centre {
     height: 100px;
     width: 100px;
     background-color: blue;
-    display: inline-block;
-    position: relative;
-    right: 100px;
+    position: absolute;
+    /* left: 100px; */
+    top:100px;
+    left:100px;
  }
 .bottom {
     height: 100px;
     width: 100px;
     background-color: yellow;
-    display: inline-block;
-    position: relative;
-    right: 100px;
-}
+    position: absolute;
+} 
