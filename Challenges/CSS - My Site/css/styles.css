@@ -5,16 +5,23 @@ body {
 }
 
 h1 {
-    margin: 0 auto;
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
     font-family: "Sacramento", cursive;
+    color: #66BFBF;
+    /* line-height: 2; */
 }
 
 h2 {
+    font-size: 2.5rem;
     font-family: "Montserrat", sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
 }
 
 h3 {
     font-family: "Montserrat", sans-serif;
+    color: #11999E;
 }
 
 .top-container {
@@ -23,25 +30,25 @@ h3 {
     padding-top: 100px;
 }
 
-.middle-container {
+/* .middle-container {}
 
-}
-
-.bottom-container {
-
-}
+.bottom-container {} */
 
 .top-cloud {
     position: absolute;
-    right: 600px;
+    right: 500px;
     top: 50px;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 35%;
+    left: 450px;
 }
 
 .pro {
     text-decoration: underline;
+}
+
+a {
+    color: #11999E;
 }
