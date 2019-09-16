@@ -128,6 +128,10 @@ p {
 
 /* Pricing Section */
 
+.container-fluid {
+    padding: 3% 15%;
+}
+
 #pricing {
     padding: 100px;
     text-align: center;
@@ -135,4 +139,18 @@ p {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+/* Media Queries */
+
+@media (max-width:1239px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+        /* margin: 0 auto; */
+    }
 }
